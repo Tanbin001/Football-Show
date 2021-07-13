@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Poiret+One&family=Poppins:wght@400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: #2d25a0;
+}
+header{
+   
+}
+.container{
+    margin: 0 120px;
+    height: 100vh;
+}
+.bar{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+
+}
+.menu a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+   
+}
+.menu a:hover{
+    color: steelblue;
+    
+}
+.border{    
+    left: 0;
+    transition: border-bottom 0.3s;
+}
+.menu a:hover, .border{
+    border-bottom: 2px solid skyblue;
+}
+.btn{
+
+}
+.btn button{
+    font-size: 20px;
+    border: none;
+    width: 160px;
+    color: white;
+    padding: 5px 15px;
+    background-color: #e02c6d;
+    transition: width 1s;
+}
+.btn button:hover{
+    width: 400px;
+    background-image: linear-gradient(to right, #2d25a0, skyblue);
+}
+
+/* banner part */
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.half{
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.promo{
+    margin-right: 80px;
+}
+.promo h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+.kick{
+    margin-left: 10px;
+}
+.kick img{
+    width: 568px;
+}
+
+/* banner part */
