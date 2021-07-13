@@ -1,0 +1,35 @@
+/*----------------------------------------------
+Responsive CSS for Different Screen Size Devices
+----------------------------------------------*/
+
+
+@media only screen and (min-device-width: 1280px) {
+    /* Responsive Classes Here */
+  
+}
+
+@media only screen and (max-device-width: 1279px) {
+    /* Responsive Classes Here */
+  
+}
+
+/* @media only screen and (max-device-width: 991px) {
+
+} */
+
+@media only screen and (max-device-width: 768px) {
+    /* Responsive Classes Here */
+
+}
+
+/* @media only screen and (max-device-width: 576px) {
+
+} */
+
+@media only screen and (max-device-width: 480px) {
+    /* Responsive Classes Here */
+
+}
+/* @media only screen and (max-device-width: 360px) {
+
+} */
