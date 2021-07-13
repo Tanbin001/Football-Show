@@ -33,7 +33,7 @@ header{
    
 }
 .menu a:hover{
-    color: steelblue;
+    color: #e02c6d;
     
 }
 .border{    
@@ -41,7 +41,7 @@ header{
     transition: border-bottom 0.3s;
 }
 .menu a:hover, .border{
-    border-bottom: 2px solid skyblue;
+    border-bottom: 2px solid #e02c6d;
 }
 .btn{
 
