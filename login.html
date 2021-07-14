@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loginstyle.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+            <!-- nav bar starts -->
+            <div class="bar" style="margin-top: -25PX; margin-bottom: 30PX;">
+                <div class="menu" style="color: black;">
+                    <!-- <a href="#">Home</a> -->
+                    <a href="#">Clubs</a>
+                    <a href="#">World Cup 2023</a>
+                    <a href="#">Upcoming Matches</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="btn">
+                    <button type="submit" style="word-spacing: 10px";> <a href="index.html"> Home </a><i class="fas fa-home">  </i></button>
+                </div>
+            </div>
+            <!-- nav bar ends -->
+   
+
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <h2 class="active"> Sign In </h2>
+            <h2 class="inactive underlineHover">Sign Up </h2>
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="images/user.png" id="icon" alt="User Icon" />
+            </div>
+
+            <!-- Login Form -->
+            <form>
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="log in">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Forgot Password?</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

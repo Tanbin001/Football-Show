@@ -46,7 +46,13 @@ p {
     border-bottom: 2px solid #e02c6d;
 }
 
-.btn {}
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    width: 160px;
+    color: white;
+}
 
 .btn button {
     font-size: 20px;
@@ -111,15 +117,17 @@ p {
     background-color: white;
     display: grid;
     flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: repeat(3, 1fr);
-    /* row-gap: 20px; */
 }
 
 .players {
-    padding: 0 30px;
-    height: 100px;
+    padding: 20px 20px;
     text-align: justify;
     box-sizing: border-box;
+    box-shadow: 0 0 10px 0;
+    margin: 30px;
 }
 
 .players:hover {
@@ -153,8 +161,8 @@ p {
 }
 
 .face img {
-    width: 85%;
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .face {
@@ -162,7 +170,7 @@ p {
 }
 
 .face:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Section Part 1 ends */
@@ -217,18 +225,6 @@ p {
 .news-parts:hover .overlay {
     /* width: 33.33%; */
 }
-
-/* .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-} */
 
 /* Section Part 3 ends */
 
@@ -289,7 +285,7 @@ footer p {
 .card:hover {
     box-shadow: 0 0 20px 0 black;
     border-radius: 5%;
-    transform: translateY(-50px);
+    transform: translateY(-40px);
     background-image: radial-gradient(rgb(47, 120, 230), rgb(15, 235, 132));
 }
 
@@ -303,4 +299,12 @@ footer p {
 
 .card-text {
     text-align: justify;
+}
+.card-3{
+    height: 550px;
+}
+.card-body a{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 15px;
 }

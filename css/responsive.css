@@ -2,24 +2,42 @@
 Responsive CSS for Different Screen Size Devices
 ----------------------------------------------*/
 
-
 @media only screen and (min-device-width: 1280px) {
     /* Responsive Classes Here */
-  
 }
 
 @media only screen and (max-device-width: 1279px) {
     /* Responsive Classes Here */
-  
+    .blog {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-/* @media only screen and (max-device-width: 991px) {
-
-} */
+@media only screen and (max-device-width: 991px) {
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .promo {
+        margin: 50px auto 0 auto;
+    }
+    .promo h1 {
+        font-size: 50px;
+    }
+    .half {
+        width: 100%;
+    }
+    .menu {
+        width: 10%;
+    }
+}
 
 @media only screen and (max-device-width: 768px) {
-    /* Responsive Classes Here */
-
+    
 }
 
 /* @media only screen and (max-device-width: 576px) {
@@ -28,8 +46,42 @@ Responsive CSS for Different Screen Size Devices
 
 @media only screen and (max-device-width: 480px) {
     /* Responsive Classes Here */
-
+    .container {
+        margin: 0 0;
+        padding: 0 0;
+        width: 480px;
+        overflow-x: hidden;
+    }
+    .half {
+        width: 50%;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .kick img {
+        width: 400px;
+    }
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .promo {
+        margin: 50px auto 0 auto;
+    }
+    .promo h1 {
+        font-size: 50px;
+    }
+    .half {
+        width: 100%;
+    }
+    .menu {
+        width: 10%;
+    }
 }
+
 /* @media only screen and (max-device-width: 360px) {
 
 } */
