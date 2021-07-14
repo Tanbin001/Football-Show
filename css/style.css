@@ -107,24 +107,27 @@ p {
 
 .blog {
     height: 2400px;
-    margin-top: 100px;
+    margin-top: 70px;
     background-color: white;
     display: grid;
     flex-wrap: nowrap;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 40px;
+    /* row-gap: 20px; */
 }
 
 .players {
     padding: 0 30px;
+    height: 100px;
     text-align: justify;
     box-sizing: border-box;
 }
-.players:hover{
+
+.players:hover {
     border-radius: 10px;
 }
 
 .para h2 {
+    margin-top: 25px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -132,6 +135,16 @@ p {
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.para {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    /* number of lines to show */
+    -webkit-box-orient: vertical;
 }
 
 .para a {
@@ -156,6 +169,10 @@ p {
 
 /* Section Part 2 starts */
 
+.part-2 {
+    margin-top: 40px;
+}
+
 .highlight h1 {
     color: black;
     font-size: 63px;
@@ -167,7 +184,7 @@ p {
     padding-right: 20px;
 }
 
-/* Section Part 1 ends */
+/* Section Part 2 ends */
 
 /* Section Part 3 starts */
 
@@ -216,10 +233,12 @@ p {
 /* Section Part 3 ends */
 
 /* footer */
-footer img{
+
+footer img {
     width: 500px;
 }
-.icons i{
+
+.icons i {
     font-size: 25px;
     padding: 5px 10px;
     margin-right: 10px;
@@ -228,12 +247,60 @@ footer img{
     background-color: rgba(161, 161, 161, 0.295);
     border-radius: 30px;
 }
-.icons i:hover{
+
+.icons i:hover {
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-footer p{
+
+footer p {
     text-align: center;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* part 4 */
+
+.extra{
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+
+.first_h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    font-family: 'Gruppo', sans-serif;
+}
+
+.card {
+    transform: translateY(0px);
+    transition: all 2s;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px 0 black;
+    border-radius: 5%;
+    transform: translateY(-50px);
+    background-image: radial-gradient(rgb(47, 120, 230), rgb(15, 235, 132));
+}
+
+.cards-sec {
+    border-radius: 30px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
 }
