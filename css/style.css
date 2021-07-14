@@ -21,8 +21,8 @@ p {
 }
 
 .container {
-    margin: 0 150px;
-    height: 100vh;
+    margin: 0 auto;
+    /* height: 100vh; */
 }
 
 .bar {
@@ -48,9 +48,6 @@ p {
 
 .btn a{
     text-decoration: none;
-    font-size: 20px;
-    border: none;
-    width: 160px;
     color: white;
 }
 
@@ -70,6 +67,7 @@ p {
     border-radius: 30px;
     cursor: pointer;
 }
+
 
 /* banner part */
 
@@ -102,31 +100,33 @@ p {
     width: 570px;
 }
 
+
 /* banner part ends */
 
 /* Section Part 1 starts */
 
 .part-1 {
-    height: 2400px;
+    /* height: 2400px; */
     /* background-color: rgba(124, 121, 121, 0.521); */
 }
 
 .blog {
-    height: 2400px;
+    /* height: 2400px; */
     margin-top: 70px;
     background-color: white;
     display: grid;
     flex-wrap: nowrap;
+    grid-template-columns: repeat(3, 1fr);
     margin-left: auto;
     margin-right: auto;
-    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 20px; */
 }
 
 .players {
     padding: 20px 20px;
     text-align: justify;
     box-sizing: border-box;
-    box-shadow: 0 0 10px 0;
+    box-shadow: 0 0 30px 0;
     margin: 30px;
 }
 
@@ -162,7 +162,6 @@ p {
 
 .face img {
     width: 100%;
-    padding: 0 10px;
 }
 
 .face {
@@ -170,10 +169,12 @@ p {
 }
 
 .face:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
+
 /* Section Part 1 ends */
+
 
 /* Section Part 2 starts */
 
@@ -192,7 +193,9 @@ p {
     padding-right: 20px;
 }
 
+
 /* Section Part 2 ends */
+
 
 /* Section Part 3 starts */
 
@@ -227,38 +230,9 @@ p {
 }
 
 /* Section Part 3 ends */
+* part 4 */
 
-/* footer */
-
-footer img {
-    width: 500px;
-}
-
-.icons i {
-    font-size: 25px;
-    padding: 5px 10px;
-    margin-right: 10px;
-    color: black;
-    box-sizing: border-box;
-    background-color: rgba(161, 161, 161, 0.295);
-    border-radius: 30px;
-}
-
-.icons i:hover {
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-footer p {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-/* part 4 */
-
-.extra{
+.extra {
     padding-top: 40px;
     margin-bottom: 200px;
 }
@@ -285,7 +259,7 @@ footer p {
 .card:hover {
     box-shadow: 0 0 20px 0 black;
     border-radius: 5%;
-    transform: translateY(-40px);
+    transform: translateY(-50px);
     background-image: radial-gradient(rgb(47, 120, 230), rgb(15, 235, 132));
 }
 
@@ -300,11 +274,44 @@ footer p {
 .card-text {
     text-align: justify;
 }
-.card-3{
+
+.card-3 {
     height: 550px;
 }
 .card-body a{
     position: absolute;
-    bottom: 0px;
-    margin-bottom: 15px;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+/* part 4 */
+
+/* footer */
+
+footer{
+    margin: 70px 0;
+}
+footer img {
+    width: 500px;
+}
+
+.icons i {
+    font-size: 25px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: black;
+    box-sizing: border-box;
+    background-color: rgba(161, 161, 161, 0.295);
+    border-radius: 30px;
+}
+
+.icons i:hover {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
 }

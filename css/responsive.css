@@ -37,8 +37,16 @@ Responsive CSS for Different Screen Size Devices
 }
 
 @media only screen and (max-device-width: 768px) {
+    .container{
+        margin: 0 auto;
+        overflow-x: hidden;
+        width: 680px;
+    }
     .blog {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .face{
+        width: 300px;
     }
     .promo h1 {
         font-size: 55px;
@@ -55,6 +63,11 @@ Responsive CSS for Different Screen Size Devices
 
 @media only screen and (max-device-width: 480px) {
     /* Responsive Classes Here */
+    .container{
+        margin: 0 auto;
+        overflow-x: hidden;
+        width: 460px;
+    }
     .promo h1 {
         font-size: 50px;
     }
