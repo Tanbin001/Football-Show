@@ -2,7 +2,6 @@
 
 /* BASIC */
 
-
 @media only screen and (max-device-width: 576px) {
   /* Responsive Classes Here */
   body{
@@ -21,7 +20,6 @@ body {
   background-image: linear-gradient(180deg, #2d25a0, skyblue);
   /* background-color: rgb(243, 190, 144); */
 }
-
 
 h2 {
   text-align: center;
@@ -74,7 +72,6 @@ h2 {
   text-decoration: none;
     color: gray;
 }
-
 
 /* TABS */
 
@@ -147,13 +144,6 @@ input[type=text]:placeholder {
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-/* 
-.fadeIn {
-  opacity:0;
-  animation:fadeIn ease-in 1;
-  animation-fill-mode:forwards;
-  animation-duration:5s;
-} */
 
 .fadeIn.first {
   animation-delay: 0.4s;
